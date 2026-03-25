@@ -1,0 +1,5 @@
+C:\Users\USER\Videos\Tutorials\Microsoft C# & .NET\C# and .NET Essential Training\Ex_Files_C_and_NET_Essential_Training\Start\Strings\Manipulation\obj\Debug\net6.0\Manipulation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\Videos\Tutorials\Microsoft C# & .NET\C# and .NET Essential Training\Ex_Files_C_and_NET_Essential_Training\Start\Strings\Manipulation\obj\Debug\net6.0\Manipulation.AssemblyInfoInputs.cache
+C:\Users\USER\Videos\Tutorials\Microsoft C# & .NET\C# and .NET Essential Training\Ex_Files_C_and_NET_Essential_Training\Start\Strings\Manipulation\obj\Debug\net6.0\Manipulation.AssemblyInfo.cs
+C:\Users\USER\Videos\Tutorials\Microsoft C# & .NET\C# and .NET Essential Training\Ex_Files_C_and_NET_Essential_Training\Start\Strings\Manipulation\obj\Debug\net6.0\Manipulation.csproj.CoreCompileInputs.cache
+C:\Users\USER\Videos\Tutorials\Microsoft C# & .NET\C# and .NET Essential Training\Ex_Files_C_and_NET_Essential_Training\Start\Strings\Manipulation\obj\Debug\net6.0\Manipulation.sourcelink.json
