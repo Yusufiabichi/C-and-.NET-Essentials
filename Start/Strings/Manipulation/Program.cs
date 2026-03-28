@@ -13,7 +13,7 @@ Console.WriteLine(str1.Length);
 Console.WriteLine(str1[14]);
 
 // TODO: Iterate over a string like any other sequence of values
-foreach (ch in str1){
+foreach (char ch in str1){
     Console.WriteLine(ch);
     if(ch == 'b'){
         Console.WriteLine();
@@ -22,11 +22,15 @@ foreach (ch in str1){
 }
 
 // TODO: String Concatenation         
-string outstr;
+// string outstr;
+// outstr = String.Concat(strs);
 
 
 // TODO: Joining strings together with Join
-
+// outstr = String.Join('.', strs);
+// Console.WriteLine(outstr);
+// outstr = String.Join("---", strs);
+// Console.WriteLine(outstr);
 
 // TODO: String Comparison
 
@@ -34,10 +38,17 @@ string outstr;
 // bool isEqual = str2.Equals(str3);
 // Console.WriteLine($"{isEqual}");
 
+// bool isEqual = str2.Equals(str3);
+// Console.WriteLine($"{isEqual}");
+
 // Compare will perform an ordinal comparison and return:
 // < 0 : first string comes before second in sort order
 // 0 : first and second strings are same position in sort order
 // > 0 : first string comes after the second in sort order
+// int result = String.Compare(str2, "This is a string");
+// Console.WriteLine($"{result}");
 
 
 // TODO: Replacing content
+string outstr = str1.Replace("fox", "cat");
+Console.WriteLine($"{outstr}");
