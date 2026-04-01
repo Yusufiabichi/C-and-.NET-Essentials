@@ -4,15 +4,15 @@
 string teststr = "The quick brown Fox jumps over the lazy Dog";
 
 // TODO: Contains determines whether a string contains certain content
-// Console.WriteLine($"{teststr.Contains("the")}");
-// Console.WriteLine($"{teststr.Contains("the", StringComparison.CurrentCultureIgnoreCase)}");
+Console.WriteLine($"{teststr.Contains("the")}");
+Console.WriteLine($"{teststr.Contains("the", StringComparison.CurrentCultureIgnoreCase)}");
 
 // TODO: StartsWith and EndsWith determine if a string starts 
 // or ends with a given test string
-// Console.WriteLine($"{teststr.StartsWith("the")}");
-// Console.WriteLine($"{teststr.StartsWith("the", StringComparison.CurrentCultureIgnoreCase)}");
-// Console.WriteLine($"{teststr.EndsWith("dog")}");
-// Console.WriteLine($"{teststr.EndsWith("dog", StringComparison.CurrentCultureIgnoreCase)}");
+Console.WriteLine($"{teststr.StartsWith("the")}");
+Console.WriteLine($"{teststr.StartsWith("the", StringComparison.CurrentCultureIgnoreCase)}");
+Console.WriteLine($"{teststr.EndsWith("dog")}");
+Console.WriteLine($"{teststr.EndsWith("dog", StringComparison.CurrentCultureIgnoreCase)}");
 
 
 // TODO: IndexOf, LastIndexOf finds the index of a substring
