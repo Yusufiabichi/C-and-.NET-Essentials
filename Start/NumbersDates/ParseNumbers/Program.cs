@@ -9,21 +9,21 @@ bool result;
 
 // TODO: The Parse method attempts to parse a string to a number and
 // throws an exception if the parse is unsuccessful
-// foreach (string str in NumStrs)
-// {
-//     try
-//     {
-//         testfloat = float.Parse(str);
-//         Console.WriteLine($"Parsed Number is {testfloat}");
+foreach (string str in NumStrs)
+{
+    try
+    {
+        testfloat = float.Parse(str);
+        Console.WriteLine($"Parsed Number is {testfloat}");
 
-//         testint = int.Parse(str);
-//         Console.WriteLine($"Parsed Number is {testint}");
-//     }
-//     catch (FormatException e)
-//     {
-//         Console.WriteLine($"Could not parsed the '{str}' : {e.Message}");
-//     }
-// }
+        testint = int.Parse(str);
+        Console.WriteLine($"Parsed Number is {testint}");
+    }
+    catch (FormatException e)
+    {
+        Console.WriteLine($"Could not parsed the '{str}' : {e.Message}");
+    }
+}
 
 // TODO: The TryParse method returns 'true' if the parse is successful
 result = int.TryParse(NumStrs[0], out testint);
