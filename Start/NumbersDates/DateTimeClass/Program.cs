@@ -2,7 +2,8 @@
 // Example file for working with Dates and Times
 
 // TODO: Use DateTime.Now property to get the current date and time
-
+DateTime now = DateTime.Now;
+Console.WriteLine(now);
 
 // TODO: DateTime.Today gets just the current date with time set to 12:00:00 AM
 
