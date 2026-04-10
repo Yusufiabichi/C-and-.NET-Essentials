@@ -1,0 +1,37 @@
+~~~~ Results ~~~~
+Total files:
+Excel counts:
+Word counts:
+PowerPoint counts:
+----------
+Total size:
+Excel size:
+Word size:
+PowerPoint size:
+Total files:
+Excel counts:
+Word counts:
+PowerPoint counts:
+----------
+Total size:
+Excel size:
+Word size:
+PowerPoint size:
+Total files:
+Excel counts:
+Word counts:
+PowerPoint counts:
+----------
+Total size:
+Excel size:
+Word size:
+PowerPoint size:
+Total files:
+Excel counts:
+Word counts:
+PowerPoint counts:
+----------
+Total size:
+Excel size:
+Word size:
+PowerPoint size:

@@ -21,17 +21,18 @@ if (!File.Exists(filename))
 // Console.WriteLine(File.GetAttributes(filename));
 
 // TODO: We can also get general information using a FileInfo 
-// try
-// {
-//     FileInfo fi = new FileInfo(filename);
-//     Console.WriteLine($"{fi.Length}");
-//     Console.WriteLine($"{fi.Directory}");
-//     Console.WriteLine($"{fi.IsReadOnly}");
-// }
-// catch (Exception e)
-// {
-//     Console.WriteLine($"Exception: {e}");
-// }
+try
+{
+    FileInfo fi = new FileInfo(filename);
+    Console.WriteLine($"{fi.Length}");
+    Console.WriteLine($"{fi.Directory}");
+    Console.WriteLine($"{fi.IsReadOnly}");
+    Console.WriteLine($"{fi.Extension}");
+}
+catch (Exception e)
+{
+    Console.WriteLine($"Exception: {e}");
+}
 
 // TODO: File information can also be manipulated
 DateTime dt = new DateTime(2022, 5, 2);
