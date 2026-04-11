@@ -4,9 +4,15 @@ const string filename = "result.txt";
 const string dirname = "FileCollection";
 if (Directory.Exists(dirname))
 {
-    string curpath = Directory.GetCurrentDirectory();
+    string curpath = Directory.GetDirectories(String, dirname);
+    // string direc = @"\FileCollection";
     Console.WriteLine(curpath);
-
+    Console.WriteLine("Just Files:");
+    List<string> thedirs = new List<string>(Directory.EnumerateFiles(curpath));
+    foreach (string dir in thedirs)
+    {
+        // Console.WriteLine(dir);
+    }
 }
 
 try
