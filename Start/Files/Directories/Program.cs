@@ -24,6 +24,7 @@ DirectoryInfo di = new DirectoryInfo(curpath);
 Console.WriteLine($"Name is: {di.Name}");
 Console.WriteLine($"Parent is: {di.Parent}");
 Console.WriteLine($"Creation Time is: s{di.CreationTime}");
+Console.WriteLine($"Creation Time is: s{di.Extension}");
 
 // TODO: Enumerate the contents of directories
 Console.WriteLine("Just directories:");

@@ -1,64 +1,10 @@
 ~~~~ Results ~~~~
-Total files:
-Excel counts:
-Word counts:
-PowerPoint counts:
+Total files: 0
+Excel counts: 0
+Word counts: 0
+PowerPoint counts: 0
 ----------
-Total size:
-Excel size:
-Word size:
-PowerPoint size:
-Total files:
-Excel counts:
-Word counts:
-PowerPoint counts:
-----------
-Total size:
-Excel size:
-Word size:
-PowerPoint size:
-Total files:
-Excel counts:
-Word counts:
-PowerPoint counts:
-----------
-Total size:
-Excel size:
-Word size:
-PowerPoint size:
-Total files:
-Excel counts:
-Word counts:
-PowerPoint counts:
-----------
-Total size:
-Excel size:
-Word size:
-PowerPoint size:
-Total files:
-Excel counts:
-Word counts:
-PowerPoint counts:
-----------
-Total size:
-Excel size:
-Word size:
-PowerPoint size:
-Total files:
-Excel counts:
-Word counts:
-PowerPoint counts:
-----------
-Total size:
-Excel size:
-Word size:
-PowerPoint size:
-Total files:
-Excel counts:
-Word counts:
-PowerPoint counts:
-----------
-Total size:
-Excel size:
-Word size:
-PowerPoint size:
+Total size: 0
+Excel size: 0
+Word size: 0
+PowerPoint size: 0
