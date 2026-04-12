@@ -11,7 +11,7 @@ long TotalSize = 0;
 
 bool isOfficeFile(string filename)
 {
-    if (filename.EndsWith(".xls") || filename.EndsWith(".docs") || filename.EndsWith(".ppt"))
+    if (filename.EndsWith(".xlsx") || filename.EndsWith(".docx") || filename.EndsWith(".pptx"))
         return true;
     return false;
 }
@@ -24,17 +24,17 @@ foreach (FileInfo fi in di.EnumerateFiles())
     {
         TotalFiles++;
         TotalSize += fi.Length;
-        if (fi.Name.EndsWith(".xls"))
+        if (fi.Name.EndsWith(".xlsx"))
         {
             XLSCount++;
             XLSSize += fi.Length;
         }
-        if (fi.Name.EndsWith(".docs"))
+        if (fi.Name.EndsWith(".docx"))
         {
             DOCCount++;
             DOCSize += fi.Length;
         }
-        if (fi.Name.EndsWith(".ppt"))
+        if (fi.Name.EndsWith(".pptx"))
         {
             PPTCount++;
             PPTSize += fi.Length;

@@ -1,10 +1,10 @@
 ~~~~ Results ~~~~
-Total files: 0
-Excel counts: 0
-Word counts: 0
-PowerPoint counts: 0
+Total files: 12
+Excel counts: 4
+Word counts: 5
+PowerPoint counts: 3
 ----------
-Total size: 0
-Excel size: 0
-Word size: 0
-PowerPoint size: 0
+Total size: 2,674,311
+Excel size: 74,262
+Word size: 1,196,567
+PowerPoint size: 1,403,482
