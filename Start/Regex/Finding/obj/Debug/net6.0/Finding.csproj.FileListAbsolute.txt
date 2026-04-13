@@ -1,0 +1,15 @@
+C:\Users\USER\Videos\Tutorials\Microsoft C# & .NET\C# and .NET Essential Training\Ex_Files_C_and_NET_Essential_Training\Start\Regex\Finding\bin\Debug\net6.0\Finding.exe
+C:\Users\USER\Videos\Tutorials\Microsoft C# & .NET\C# and .NET Essential Training\Ex_Files_C_and_NET_Essential_Training\Start\Regex\Finding\bin\Debug\net6.0\Finding.deps.json
+C:\Users\USER\Videos\Tutorials\Microsoft C# & .NET\C# and .NET Essential Training\Ex_Files_C_and_NET_Essential_Training\Start\Regex\Finding\bin\Debug\net6.0\Finding.runtimeconfig.json
+C:\Users\USER\Videos\Tutorials\Microsoft C# & .NET\C# and .NET Essential Training\Ex_Files_C_and_NET_Essential_Training\Start\Regex\Finding\bin\Debug\net6.0\Finding.dll
+C:\Users\USER\Videos\Tutorials\Microsoft C# & .NET\C# and .NET Essential Training\Ex_Files_C_and_NET_Essential_Training\Start\Regex\Finding\bin\Debug\net6.0\Finding.pdb
+C:\Users\USER\Videos\Tutorials\Microsoft C# & .NET\C# and .NET Essential Training\Ex_Files_C_and_NET_Essential_Training\Start\Regex\Finding\obj\Debug\net6.0\Finding.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\Videos\Tutorials\Microsoft C# & .NET\C# and .NET Essential Training\Ex_Files_C_and_NET_Essential_Training\Start\Regex\Finding\obj\Debug\net6.0\Finding.AssemblyInfoInputs.cache
+C:\Users\USER\Videos\Tutorials\Microsoft C# & .NET\C# and .NET Essential Training\Ex_Files_C_and_NET_Essential_Training\Start\Regex\Finding\obj\Debug\net6.0\Finding.AssemblyInfo.cs
+C:\Users\USER\Videos\Tutorials\Microsoft C# & .NET\C# and .NET Essential Training\Ex_Files_C_and_NET_Essential_Training\Start\Regex\Finding\obj\Debug\net6.0\Finding.csproj.CoreCompileInputs.cache
+C:\Users\USER\Videos\Tutorials\Microsoft C# & .NET\C# and .NET Essential Training\Ex_Files_C_and_NET_Essential_Training\Start\Regex\Finding\obj\Debug\net6.0\Finding.sourcelink.json
+C:\Users\USER\Videos\Tutorials\Microsoft C# & .NET\C# and .NET Essential Training\Ex_Files_C_and_NET_Essential_Training\Start\Regex\Finding\obj\Debug\net6.0\Finding.dll
+C:\Users\USER\Videos\Tutorials\Microsoft C# & .NET\C# and .NET Essential Training\Ex_Files_C_and_NET_Essential_Training\Start\Regex\Finding\obj\Debug\net6.0\refint\Finding.dll
+C:\Users\USER\Videos\Tutorials\Microsoft C# & .NET\C# and .NET Essential Training\Ex_Files_C_and_NET_Essential_Training\Start\Regex\Finding\obj\Debug\net6.0\Finding.pdb
+C:\Users\USER\Videos\Tutorials\Microsoft C# & .NET\C# and .NET Essential Training\Ex_Files_C_and_NET_Essential_Training\Start\Regex\Finding\obj\Debug\net6.0\Finding.genruntimeconfig.cache
+C:\Users\USER\Videos\Tutorials\Microsoft C# & .NET\C# and .NET Essential Training\Ex_Files_C_and_NET_Essential_Training\Start\Regex\Finding\obj\Debug\net6.0\ref\Finding.dll
