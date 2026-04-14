@@ -1,0 +1,15 @@
+C:\Users\USER\Videos\Tutorials\Microsoft C# & .NET\C# and .NET Essential Training\Ex_Files_C_and_NET_Essential_Training\Start\Regex\Replacing\bin\Debug\net6.0\Replacing.exe
+C:\Users\USER\Videos\Tutorials\Microsoft C# & .NET\C# and .NET Essential Training\Ex_Files_C_and_NET_Essential_Training\Start\Regex\Replacing\bin\Debug\net6.0\Replacing.deps.json
+C:\Users\USER\Videos\Tutorials\Microsoft C# & .NET\C# and .NET Essential Training\Ex_Files_C_and_NET_Essential_Training\Start\Regex\Replacing\bin\Debug\net6.0\Replacing.runtimeconfig.json
+C:\Users\USER\Videos\Tutorials\Microsoft C# & .NET\C# and .NET Essential Training\Ex_Files_C_and_NET_Essential_Training\Start\Regex\Replacing\bin\Debug\net6.0\Replacing.dll
+C:\Users\USER\Videos\Tutorials\Microsoft C# & .NET\C# and .NET Essential Training\Ex_Files_C_and_NET_Essential_Training\Start\Regex\Replacing\bin\Debug\net6.0\Replacing.pdb
+C:\Users\USER\Videos\Tutorials\Microsoft C# & .NET\C# and .NET Essential Training\Ex_Files_C_and_NET_Essential_Training\Start\Regex\Replacing\obj\Debug\net6.0\Replacing.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\Videos\Tutorials\Microsoft C# & .NET\C# and .NET Essential Training\Ex_Files_C_and_NET_Essential_Training\Start\Regex\Replacing\obj\Debug\net6.0\Replacing.AssemblyInfoInputs.cache
+C:\Users\USER\Videos\Tutorials\Microsoft C# & .NET\C# and .NET Essential Training\Ex_Files_C_and_NET_Essential_Training\Start\Regex\Replacing\obj\Debug\net6.0\Replacing.AssemblyInfo.cs
+C:\Users\USER\Videos\Tutorials\Microsoft C# & .NET\C# and .NET Essential Training\Ex_Files_C_and_NET_Essential_Training\Start\Regex\Replacing\obj\Debug\net6.0\Replacing.csproj.CoreCompileInputs.cache
+C:\Users\USER\Videos\Tutorials\Microsoft C# & .NET\C# and .NET Essential Training\Ex_Files_C_and_NET_Essential_Training\Start\Regex\Replacing\obj\Debug\net6.0\Replacing.sourcelink.json
+C:\Users\USER\Videos\Tutorials\Microsoft C# & .NET\C# and .NET Essential Training\Ex_Files_C_and_NET_Essential_Training\Start\Regex\Replacing\obj\Debug\net6.0\Replacing.dll
+C:\Users\USER\Videos\Tutorials\Microsoft C# & .NET\C# and .NET Essential Training\Ex_Files_C_and_NET_Essential_Training\Start\Regex\Replacing\obj\Debug\net6.0\refint\Replacing.dll
+C:\Users\USER\Videos\Tutorials\Microsoft C# & .NET\C# and .NET Essential Training\Ex_Files_C_and_NET_Essential_Training\Start\Regex\Replacing\obj\Debug\net6.0\Replacing.pdb
+C:\Users\USER\Videos\Tutorials\Microsoft C# & .NET\C# and .NET Essential Training\Ex_Files_C_and_NET_Essential_Training\Start\Regex\Replacing\obj\Debug\net6.0\Replacing.genruntimeconfig.cache
+C:\Users\USER\Videos\Tutorials\Microsoft C# & .NET\C# and .NET Essential Training\Ex_Files_C_and_NET_Essential_Training\Start\Regex\Replacing\obj\Debug\net6.0\ref\Replacing.dll
