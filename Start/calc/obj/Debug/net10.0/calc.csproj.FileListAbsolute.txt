@@ -1,0 +1,15 @@
+C:\Users\USER\Videos\Tutorials\Microsoft C# & .NET\C# and .NET Essential Training\Ex_Files_C_and_NET_Essential_Training\Start\calc\bin\Debug\net10.0\calc.exe
+C:\Users\USER\Videos\Tutorials\Microsoft C# & .NET\C# and .NET Essential Training\Ex_Files_C_and_NET_Essential_Training\Start\calc\bin\Debug\net10.0\calc.deps.json
+C:\Users\USER\Videos\Tutorials\Microsoft C# & .NET\C# and .NET Essential Training\Ex_Files_C_and_NET_Essential_Training\Start\calc\bin\Debug\net10.0\calc.runtimeconfig.json
+C:\Users\USER\Videos\Tutorials\Microsoft C# & .NET\C# and .NET Essential Training\Ex_Files_C_and_NET_Essential_Training\Start\calc\bin\Debug\net10.0\calc.dll
+C:\Users\USER\Videos\Tutorials\Microsoft C# & .NET\C# and .NET Essential Training\Ex_Files_C_and_NET_Essential_Training\Start\calc\bin\Debug\net10.0\calc.pdb
+C:\Users\USER\Videos\Tutorials\Microsoft C# & .NET\C# and .NET Essential Training\Ex_Files_C_and_NET_Essential_Training\Start\calc\obj\Debug\net10.0\calc.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\Videos\Tutorials\Microsoft C# & .NET\C# and .NET Essential Training\Ex_Files_C_and_NET_Essential_Training\Start\calc\obj\Debug\net10.0\calc.AssemblyInfoInputs.cache
+C:\Users\USER\Videos\Tutorials\Microsoft C# & .NET\C# and .NET Essential Training\Ex_Files_C_and_NET_Essential_Training\Start\calc\obj\Debug\net10.0\calc.AssemblyInfo.cs
+C:\Users\USER\Videos\Tutorials\Microsoft C# & .NET\C# and .NET Essential Training\Ex_Files_C_and_NET_Essential_Training\Start\calc\obj\Debug\net10.0\calc.csproj.CoreCompileInputs.cache
+C:\Users\USER\Videos\Tutorials\Microsoft C# & .NET\C# and .NET Essential Training\Ex_Files_C_and_NET_Essential_Training\Start\calc\obj\Debug\net10.0\calc.sourcelink.json
+C:\Users\USER\Videos\Tutorials\Microsoft C# & .NET\C# and .NET Essential Training\Ex_Files_C_and_NET_Essential_Training\Start\calc\obj\Debug\net10.0\calc.dll
+C:\Users\USER\Videos\Tutorials\Microsoft C# & .NET\C# and .NET Essential Training\Ex_Files_C_and_NET_Essential_Training\Start\calc\obj\Debug\net10.0\refint\calc.dll
+C:\Users\USER\Videos\Tutorials\Microsoft C# & .NET\C# and .NET Essential Training\Ex_Files_C_and_NET_Essential_Training\Start\calc\obj\Debug\net10.0\calc.pdb
+C:\Users\USER\Videos\Tutorials\Microsoft C# & .NET\C# and .NET Essential Training\Ex_Files_C_and_NET_Essential_Training\Start\calc\obj\Debug\net10.0\calc.genruntimeconfig.cache
+C:\Users\USER\Videos\Tutorials\Microsoft C# & .NET\C# and .NET Essential Training\Ex_Files_C_and_NET_Essential_Training\Start\calc\obj\Debug\net10.0\ref\calc.dll
