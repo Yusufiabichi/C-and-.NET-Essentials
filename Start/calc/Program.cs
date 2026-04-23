@@ -74,44 +74,86 @@
 // Console.WriteLine(usr.Name);
 
 
-using System.Drawing;
-using System.Security.Cryptography;
+// using System.Drawing;
+// using System.Security.Cryptography;
 
-Info tst = new Info("Yusufia", "Bichi");
-Console.WriteLine(tst.GetInfo());
-
-
-
-// INHERITANCE
-
-Circle c = new Circle(10);
-Rectangle r = new Rectangle(10, 20);
-Square s = new Square(10);
-
-Console.WriteLine($"{c}");
-Console.WriteLine($"{r}");
-
-Console.WriteLine($"{c is Shape2D}");
-Console.WriteLine($"{c is Rectangle}");
+// Info tst = new Info("Yusufia", "Bichi");
+// Console.WriteLine(tst.GetInfo());
 
 
-Console.WriteLine(c.GetArea());
-Console.WriteLine(r.GetArea());
-Console.WriteLine(s.GetArea());
 
-void PrintArea(Shape2D shape)
-{
-    Console.WriteLine($"{shape.GetArea()}");
-}
+// // INHERITANCE
 
-PrintArea(c);
-PrintArea(r);
-PrintArea(s);
+// Circle c = new Circle(10);
+// Rectangle r = new Rectangle(10, 20);
+// Square s = new Square(10);
+
+// Console.WriteLine($"{c}");
+// Console.WriteLine($"{r}");
+
+// Console.WriteLine($"{c is Shape2D}");
+// Console.WriteLine($"{c is Rectangle}");
+
+
+// Console.WriteLine(c.GetArea());
+// Console.WriteLine(r.GetArea());
+// Console.WriteLine(s.GetArea());
+
+// void PrintArea(Shape2D shape)
+// {
+//     Console.WriteLine($"{shape.GetArea()}");
+// }
+
+// PrintArea(c);
+// PrintArea(r);
+// PrintArea(s);
 
 // INHERITANCE END
 
 
 // ACCESS MODIFIERS START
+
+// MyClass class1 = new MyClass();
+// DerivedClass class2 = new DerivedClass();
+
+// Console.WriteLine($"Class1 DAta Value is {class1.Data}");
+// class1.Func1();
+// class1.Func1();
+// Console.WriteLine($"Class1 DAta Value is {class1.Data}");
+
+// Console.WriteLine($"Class2 DAta Value is {class2.Data}");
+// class2.Func1();
+// class2.Func3();
+// Console.WriteLine($"Class2 DAta Value is {class2.Data}");
+// ACCESS MODIFIERS ENDS
+
+
+// ANONYMOUS TYPES START
+var myobj = new
+{
+    Name = "Yusufia Bichi",
+    Age = 24,
+    Address = new
+    {
+        Street = "123 FCE Road",
+        City = "Bichi"
+    }
+};
+Console.WriteLine($"{myobj.Name}, {myobj.Address.Street}");
+Console.WriteLine($"{myobj}");
+
+// myobj.Name = "Isah";
+
+var myobj2 = myobj with { Name = "Isah" };
+Console.WriteLine($"{myobj2.Name}, {myobj2.Address.Street}");
+
+
+Console.WriteLine($"{myobj.GetType().GetProperty("Name") != null}");
+Console.WriteLine($"{myobj.GetType().GetProperty("Job") != null}");
+
+
+
+
 
 
 

@@ -1,5 +1,17 @@
 using System.Net.Sockets;
 
+// ANONYMOUS TYPES STARTS
+// var myobj = new
+// {
+//     Name = "Yusufia Bichi",
+//     Age = 24,
+//     Address = new
+//     {
+//         Street = "123 FCE Road",
+//         City = "Bichi"
+//     }
+// };
+
 // class Rectangle
 // {
 //     public Rectangle(int w, int h)
@@ -196,8 +208,48 @@ class Square : Rectangle
 public class MyClass
 {
     public MyClass() { }
+    public void Func1()
+    {
+        Console.WriteLine("This is a Func1");
+        SomeValue += 1;
+    }
 
+    // Protected members can be accessed from the class and its subclass
+    protected void Func2()
+    {
+        Console.WriteLine("This is Func2");
+        SomeValue -= 1;
+    }
+    private int SomeValue = 1;
+    public int Data
+    {
+        get
+        {
+            return SomeValue;
+        }
+        set
+        {
+            SomeValue = value;
+        }
+    }
 }
+
+class DerivedClass : MyClass
+{
+    public DerivedClass() { }
+    public void Func3()
+    {
+        Console.WriteLine("This is Func3");
+        // SomeValue += 1;  this value cannot be accessed due to it's protection level
+        // Func2 can be access here because DerivedClass is a subclass of MyClass
+        Func2();
+    }
+}
+// ACCESS MODIFIERS END
+
+
+
+
 
 
 class Info
