@@ -67,8 +67,53 @@
 
 
 
-using System.Reflection.Metadata;
+// using System.Reflection.Metadata;
 
-User usr = new User("yusufia", "yusufia@yahoo.com", "07068538000");
-Console.WriteLine(usr.GetDescription());
-Console.WriteLine(usr.Name);
+// User usr = new User("yusufia", "yusufia@yahoo.com", "07068538000");
+// Console.WriteLine(usr.GetDescription());
+// Console.WriteLine(usr.Name);
+
+
+using System.Drawing;
+using System.Security.Cryptography;
+
+Info tst = new Info("Yusufia", "Bichi");
+Console.WriteLine(tst.GetInfo());
+
+
+
+// INHERITANCE
+
+Circle c = new Circle(10);
+Rectangle r = new Rectangle(10, 20);
+Square s = new Square(10);
+
+Console.WriteLine($"{c}");
+Console.WriteLine($"{r}");
+
+Console.WriteLine($"{c is Shape2D}");
+Console.WriteLine($"{c is Rectangle}");
+
+
+Console.WriteLine(c.GetArea());
+Console.WriteLine(r.GetArea());
+Console.WriteLine(s.GetArea());
+
+void PrintArea(Shape2D shape)
+{
+    Console.WriteLine($"{shape.GetArea()}");
+}
+
+PrintArea(c);
+PrintArea(r);
+PrintArea(s);
+
+// INHERITANCE END
+
+
+// ACCESS MODIFIERS START
+
+
+
+
+
