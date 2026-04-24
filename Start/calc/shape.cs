@@ -248,6 +248,54 @@ class DerivedClass : MyClass
 // ACCESS MODIFIERS END
 
 
+// OBJECT INITIALIZERS STARTS
+public class Pet
+{
+    public string Name { get; set; } = "";
+    public int Age { get; set; } = 0;
+    public Pet() { }
+}
+public class Dog : Pet
+{
+    public bool IsTrained { get; set; } = false;
+    public Dog() { }
+}
+public class Cat : Pet
+{
+    public bool IsDeclawed { get; set; } = false;
+    public Cat() { }
+}
+public class PetOwner
+{
+    public string Name { get; set; } = "";
+    public List<Pet>? Pets { get; set; }
+}
+// OBJECT INITIALIZERS ENDS
+
+
+
+// READ-ONLY MEMBERS START
+public class Book
+{
+    private string _ISBN = "";
+    private string _title = "";
+    private string _author = "";
+    public Book(string ISBN, string Title, string Author)
+    {
+        _ISBN = ISBN;
+        _title = Title;
+        _author = Author;
+    }
+    public void Update(string ISBN, string Title, string Author)
+    {
+        _ISBN = ISBN;
+        _title = Title;
+        _author = Author;
+    }
+}
+// READ-ONLY MEMBERS ENDS
+
+
 
 
 

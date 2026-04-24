@@ -129,27 +129,79 @@
 
 
 // ANONYMOUS TYPES START
-var myobj = new
-{
-    Name = "Yusufia Bichi",
-    Age = 24,
-    Address = new
-    {
-        Street = "123 FCE Road",
-        City = "Bichi"
-    }
-};
-Console.WriteLine($"{myobj.Name}, {myobj.Address.Street}");
-Console.WriteLine($"{myobj}");
+// var myobj = new
+// {
+//     Name = "Yusufia Bichi",
+//     Age = 24,
+//     Address = new
+//     {
+//         Street = "123 FCE Road",
+//         City = "Bichi"
+//     }
+// };
+// Console.WriteLine($"{myobj.Name}, {myobj.Address.Street}");
+// Console.WriteLine($"{myobj}");
 
-// myobj.Name = "Isah";
+// // myobj.Name = "Isah";
 
-var myobj2 = myobj with { Name = "Isah" };
-Console.WriteLine($"{myobj2.Name}, {myobj2.Address.Street}");
+// var myobj2 = myobj with { Name = "Isah" };
+// Console.WriteLine($"{myobj2.Name}, {myobj2.Address.Street}");
 
 
-Console.WriteLine($"{myobj.GetType().GetProperty("Name") != null}");
-Console.WriteLine($"{myobj.GetType().GetProperty("Job") != null}");
+// Console.WriteLine($"{myobj.GetType().GetProperty("Name") != null}");
+// Console.WriteLine($"{myobj.GetType().GetProperty("Job") != null}");
+// ANONYMOUS TYPES ENDS
+
+
+// OBJECT INITIALIZERS START
+// using System.Security.Cryptography;
+
+// Dog dog = new Dog { Name = "Fido", Age = 5, IsTrained = true };
+// Cat cat = new Cat { Name = "Kitty", Age = 2, IsDeclawed = false };
+// Console.WriteLine($"Dog: {dog.Name}, {dog.Age}");
+// Console.WriteLine($"Cat: {cat.Name}, {cat.Age}");
+
+// // anonymous tyopes
+// var pet = new
+// {
+//     Name = "Cahrlie",
+//     Age = 7
+// };
+// Console.WriteLine($"Pet: {pet.Name}, {pet.Age}");
+
+// // Collections initializers
+// int[] numbers = new int[] { 1, 2, 3, 4, 5, 6, };
+// Console.WriteLine(numbers.Length);
+
+// // Collection initializers with the set of objects
+// PetOwner owner = new PetOwner
+// {
+//     Name = "Yusufia Bichi",
+//     Pets = new List<Pet>
+//     {
+//         new Dog{Name = "Junebug", Age=4},
+//         new Cat {Name="Jack", Age=3},
+//         new Dog{Name="Max", Age=6}
+//     }
+// };
+
+// Console.WriteLine($"{owner.Name}'s Pets");
+// foreach (Pet p in owner.Pets)
+// {
+//     Console.WriteLine($"{p.Name}");
+// }
+// OBJECT INITIALIZERS ENDS
+
+
+// READ-ONLY MEMBERS START
+var book1 = new Book("97568542122", "War and Peace", "Yusufia Idris");
+var book2 = new Book("25478541215", "Catch 22", "Bichi Yusuf");
+Console.WriteLine($"{book1.ISBN:} {book1.Title} by {book1.Author}");
+Console.WriteLine($"{book2}");
+// READ-ONLY MEMBERS END
+
+
+
 
 
 
