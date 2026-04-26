@@ -296,6 +296,39 @@ public class Book
 // READ-ONLY MEMBERS ENDS
 
 
+// INIT_ONLY PROPERTIES START
+public class Employee
+{
+    private readonly int _id;
+    public Employee() { }
+    public Employee(string fname, string lname, int id, string dept)
+    {
+        FirstName = fname;
+        LastName = lname;
+        ID = id;
+        Department = dept;
+    }
+    public int ID
+    {
+        get => _id;
+        init => _id = value;
+    }
+    public string? FirstName
+    {
+        get; set;
+    }
+    public string? LastName
+    {
+        get; set;
+    }
+    public string? Department
+    {
+        get; set;
+    }
+    public override string ToString() => $"{FirstName} {LastName}, ID:{ID} in {Department}";
+}
+
+
 
 
 
