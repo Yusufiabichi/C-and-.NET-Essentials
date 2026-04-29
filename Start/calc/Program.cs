@@ -194,24 +194,24 @@
 
 
 // READ-ONLY MEMBERS START
-// var book1 = new Book("97568542122", "War and Peace", "Yusufia Idris");
-// var book2 = new Book("25478541215", "Catch 22", "Bichi Yusuf");
-// Console.WriteLine($"{book1.ISBN:} {book1.Title} by {book1.Author}");
-// Console.WriteLine($"{book2}");
+var book1 = new Book("97568542122", "War and Peace", "Yusufia Idris");
+var book2 = new Book("25478541215", "Catch 22", "Bichi Yusuf");
+Console.WriteLine($"{book1}");
+Console.WriteLine($"{book2}");
 // READ-ONLY MEMBERS END
 
 
 // INIT_ONLY PROPERTIES START
-Employee emp1 = new Employee() { FirstName = "John", LastName = "Doe", ID = 1, Department = "Sales" };
-Employee emp2 = new Employee("Yusufia", "Bichi", 5, "Comp");
-Console.WriteLine(emp1);
-emp1.Department = "Tech Support";
-// emp1.ID = 4;
-Console.WriteLine(emp1);
-Console.WriteLine(emp2);
-emp2.LastName = "Abdullahi";
-// emp2.ID = 2;
-Console.WriteLine(emp2);
+// Employee emp1 = new Employee() { FirstName = "John", LastName = "Doe", ID = 1, Department = "Sales" };
+// Employee emp2 = new Employee("Yusufia", "Bichi", 5, "Comp");
+// Console.WriteLine(emp1);
+// emp1.Department = "Tech Support";
+// // emp1.ID = 4;
+// Console.WriteLine(emp1);
+// Console.WriteLine(emp2);
+// emp2.LastName = "Abdullahi";
+// // emp2.ID = 2;
+// Console.WriteLine(emp2);
 
 
 

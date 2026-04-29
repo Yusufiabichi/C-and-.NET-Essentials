@@ -292,6 +292,7 @@ public class Book
         _title = Title;
         _author = Author;
     }
+    public override string ToString() => $"{ISBN}: {Title} by {Author}";
 }
 // READ-ONLY MEMBERS ENDS
 
