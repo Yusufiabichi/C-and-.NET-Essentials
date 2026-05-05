@@ -1,0 +1,15 @@
+C:\Users\USER\source\repos\Yusufiabichi\C-and-.NET-Essentials\Start\StaticMembers\bin\Debug\net10.0\StaticMembers.exe
+C:\Users\USER\source\repos\Yusufiabichi\C-and-.NET-Essentials\Start\StaticMembers\bin\Debug\net10.0\StaticMembers.deps.json
+C:\Users\USER\source\repos\Yusufiabichi\C-and-.NET-Essentials\Start\StaticMembers\bin\Debug\net10.0\StaticMembers.runtimeconfig.json
+C:\Users\USER\source\repos\Yusufiabichi\C-and-.NET-Essentials\Start\StaticMembers\bin\Debug\net10.0\StaticMembers.dll
+C:\Users\USER\source\repos\Yusufiabichi\C-and-.NET-Essentials\Start\StaticMembers\bin\Debug\net10.0\StaticMembers.pdb
+C:\Users\USER\source\repos\Yusufiabichi\C-and-.NET-Essentials\Start\StaticMembers\obj\Debug\net10.0\StaticMembers.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\source\repos\Yusufiabichi\C-and-.NET-Essentials\Start\StaticMembers\obj\Debug\net10.0\StaticMembers.AssemblyInfoInputs.cache
+C:\Users\USER\source\repos\Yusufiabichi\C-and-.NET-Essentials\Start\StaticMembers\obj\Debug\net10.0\StaticMembers.AssemblyInfo.cs
+C:\Users\USER\source\repos\Yusufiabichi\C-and-.NET-Essentials\Start\StaticMembers\obj\Debug\net10.0\StaticMembers.csproj.CoreCompileInputs.cache
+C:\Users\USER\source\repos\Yusufiabichi\C-and-.NET-Essentials\Start\StaticMembers\obj\Debug\net10.0\StaticMembers.sourcelink.json
+C:\Users\USER\source\repos\Yusufiabichi\C-and-.NET-Essentials\Start\StaticMembers\obj\Debug\net10.0\StaticMembers.dll
+C:\Users\USER\source\repos\Yusufiabichi\C-and-.NET-Essentials\Start\StaticMembers\obj\Debug\net10.0\refint\StaticMembers.dll
+C:\Users\USER\source\repos\Yusufiabichi\C-and-.NET-Essentials\Start\StaticMembers\obj\Debug\net10.0\StaticMembers.pdb
+C:\Users\USER\source\repos\Yusufiabichi\C-and-.NET-Essentials\Start\StaticMembers\obj\Debug\net10.0\StaticMembers.genruntimeconfig.cache
+C:\Users\USER\source\repos\Yusufiabichi\C-and-.NET-Essentials\Start\StaticMembers\obj\Debug\net10.0\ref\StaticMembers.dll
