@@ -38,7 +38,6 @@ namespace Challenge
         public int quantity;
     }
 
-
     public class ShoppingList
     {
         List<ShoppingItem> shoppingList = new List<ShoppingItem>(20);

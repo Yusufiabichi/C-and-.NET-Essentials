@@ -1,0 +1,15 @@
+C:\Users\USER\source\repos\Yusufiabichi\C-and-.NET-Essentials\Start\DataStructures\BalancedStatementChallenge\bin\Debug\net10.0\BalancedStatementChallenge.exe
+C:\Users\USER\source\repos\Yusufiabichi\C-and-.NET-Essentials\Start\DataStructures\BalancedStatementChallenge\bin\Debug\net10.0\BalancedStatementChallenge.deps.json
+C:\Users\USER\source\repos\Yusufiabichi\C-and-.NET-Essentials\Start\DataStructures\BalancedStatementChallenge\bin\Debug\net10.0\BalancedStatementChallenge.runtimeconfig.json
+C:\Users\USER\source\repos\Yusufiabichi\C-and-.NET-Essentials\Start\DataStructures\BalancedStatementChallenge\bin\Debug\net10.0\BalancedStatementChallenge.dll
+C:\Users\USER\source\repos\Yusufiabichi\C-and-.NET-Essentials\Start\DataStructures\BalancedStatementChallenge\bin\Debug\net10.0\BalancedStatementChallenge.pdb
+C:\Users\USER\source\repos\Yusufiabichi\C-and-.NET-Essentials\Start\DataStructures\BalancedStatementChallenge\obj\Debug\net10.0\BalancedStatementChallenge.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\source\repos\Yusufiabichi\C-and-.NET-Essentials\Start\DataStructures\BalancedStatementChallenge\obj\Debug\net10.0\BalancedStatementChallenge.AssemblyInfoInputs.cache
+C:\Users\USER\source\repos\Yusufiabichi\C-and-.NET-Essentials\Start\DataStructures\BalancedStatementChallenge\obj\Debug\net10.0\BalancedStatementChallenge.AssemblyInfo.cs
+C:\Users\USER\source\repos\Yusufiabichi\C-and-.NET-Essentials\Start\DataStructures\BalancedStatementChallenge\obj\Debug\net10.0\BalancedStatementChallenge.csproj.CoreCompileInputs.cache
+C:\Users\USER\source\repos\Yusufiabichi\C-and-.NET-Essentials\Start\DataStructures\BalancedStatementChallenge\obj\Debug\net10.0\BalancedStatementChallenge.sourcelink.json
+C:\Users\USER\source\repos\Yusufiabichi\C-and-.NET-Essentials\Start\DataStructures\BalancedStatementChallenge\obj\Debug\net10.0\BalancedStatementChallenge.dll
+C:\Users\USER\source\repos\Yusufiabichi\C-and-.NET-Essentials\Start\DataStructures\BalancedStatementChallenge\obj\Debug\net10.0\refint\BalancedStatementChallenge.dll
+C:\Users\USER\source\repos\Yusufiabichi\C-and-.NET-Essentials\Start\DataStructures\BalancedStatementChallenge\obj\Debug\net10.0\BalancedStatementChallenge.pdb
+C:\Users\USER\source\repos\Yusufiabichi\C-and-.NET-Essentials\Start\DataStructures\BalancedStatementChallenge\obj\Debug\net10.0\BalancedStatementChallenge.genruntimeconfig.cache
+C:\Users\USER\source\repos\Yusufiabichi\C-and-.NET-Essentials\Start\DataStructures\BalancedStatementChallenge\obj\Debug\net10.0\ref\BalancedStatementChallenge.dll
