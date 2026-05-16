@@ -1,0 +1,15 @@
+C:\Users\USER\source\repos\Yusufiabichi\C-and-.NET-Essentials\Start\DataStructures\StringBuilder\bin\Debug\net10.0\StringBuilder.exe
+C:\Users\USER\source\repos\Yusufiabichi\C-and-.NET-Essentials\Start\DataStructures\StringBuilder\bin\Debug\net10.0\StringBuilder.deps.json
+C:\Users\USER\source\repos\Yusufiabichi\C-and-.NET-Essentials\Start\DataStructures\StringBuilder\bin\Debug\net10.0\StringBuilder.runtimeconfig.json
+C:\Users\USER\source\repos\Yusufiabichi\C-and-.NET-Essentials\Start\DataStructures\StringBuilder\bin\Debug\net10.0\StringBuilder.dll
+C:\Users\USER\source\repos\Yusufiabichi\C-and-.NET-Essentials\Start\DataStructures\StringBuilder\bin\Debug\net10.0\StringBuilder.pdb
+C:\Users\USER\source\repos\Yusufiabichi\C-and-.NET-Essentials\Start\DataStructures\StringBuilder\obj\Debug\net10.0\StringBuilder.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\source\repos\Yusufiabichi\C-and-.NET-Essentials\Start\DataStructures\StringBuilder\obj\Debug\net10.0\StringBuilder.AssemblyInfoInputs.cache
+C:\Users\USER\source\repos\Yusufiabichi\C-and-.NET-Essentials\Start\DataStructures\StringBuilder\obj\Debug\net10.0\StringBuilder.AssemblyInfo.cs
+C:\Users\USER\source\repos\Yusufiabichi\C-and-.NET-Essentials\Start\DataStructures\StringBuilder\obj\Debug\net10.0\StringBuilder.csproj.CoreCompileInputs.cache
+C:\Users\USER\source\repos\Yusufiabichi\C-and-.NET-Essentials\Start\DataStructures\StringBuilder\obj\Debug\net10.0\StringBuilder.sourcelink.json
+C:\Users\USER\source\repos\Yusufiabichi\C-and-.NET-Essentials\Start\DataStructures\StringBuilder\obj\Debug\net10.0\StringBuilder.dll
+C:\Users\USER\source\repos\Yusufiabichi\C-and-.NET-Essentials\Start\DataStructures\StringBuilder\obj\Debug\net10.0\refint\StringBuilder.dll
+C:\Users\USER\source\repos\Yusufiabichi\C-and-.NET-Essentials\Start\DataStructures\StringBuilder\obj\Debug\net10.0\StringBuilder.pdb
+C:\Users\USER\source\repos\Yusufiabichi\C-and-.NET-Essentials\Start\DataStructures\StringBuilder\obj\Debug\net10.0\StringBuilder.genruntimeconfig.cache
+C:\Users\USER\source\repos\Yusufiabichi\C-and-.NET-Essentials\Start\DataStructures\StringBuilder\obj\Debug\net10.0\ref\StringBuilder.dll
