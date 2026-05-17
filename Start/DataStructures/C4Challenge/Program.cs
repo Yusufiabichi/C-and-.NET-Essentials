@@ -18,7 +18,7 @@ namespace Challenge
             // TODO: Count the total number of words
 
 
-            // TODO: Find the longest word
+            // TODO: Find the longest word in the list
 
 
             // TODO: Build the word count data
