@@ -16,9 +16,25 @@ namespace Challenge
             string[] wordArray = TheString.Split(' ');
 
             // TODO: Count the total number of words
+            Console.WriteLine($"Word COunt: {wordArray.Length}");
 
 
             // TODO: Find the longest word in the list
+            foreach (string wrd in wordArray)
+            {
+                List<int> lengths = new List<int>();
+                int chrLength = wrd.Length;
+                //int maxLength = Math.Max(chrLength);
+                foreach(int i in chrLength)
+                {
+                    // Loop throught the lits and find the max Length
+                    if(i > chrLength)
+                    {
+                        lengths.Add(i);
+                    }
+                }
+                Console.WriteLine(lengths);
+            }
 
 
             // TODO: Build the word count data
@@ -48,8 +64,14 @@ namespace Challenge
                 "and proper that we should do this"
             };
 
+            //foreach(string word in GettysburgAddress)
+            //{
+            //    Console.WriteLine(word);
+            //}
+
             // TODO: Convert the string array to a single string and call PrintStringStats
-            string TheText = "";
+            string TheText = string.Join(" ", GettysburgAddress).ToLower();
+            //Console.WriteLine(TheText);
             PrintStringStats(TheText);
         }
     }
