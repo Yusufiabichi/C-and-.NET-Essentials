@@ -1,6 +1,6 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.5.2.0
+# Visual Studio Version 18
+VisualStudioVersion = 18.5.11723.231 stable
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Finished", "Finished", "{B8031A34-B0AE-8DE2-16B1-DD24E562D97B}"
 EndProject
@@ -111,6 +111,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Manipulation", "Start\Strings\Manipulation\Manipulation.csproj", "{7010AA87-7A87-9F05-7AEC-6BD71E524A13}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Searching", "Start\Strings\Searching\Searching.csproj", "{427FDEEF-E9F8-6947-189A-3D8A936F042E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C4Challenge", "Start\DataStructures\C4Challenge\C4Challenge.csproj", "{55DC2D09-66AA-DC7C-1D03-9E70C6FB130B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -282,6 +284,10 @@ Global
 		{427FDEEF-E9F8-6947-189A-3D8A936F042E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{427FDEEF-E9F8-6947-189A-3D8A936F042E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{427FDEEF-E9F8-6947-189A-3D8A936F042E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55DC2D09-66AA-DC7C-1D03-9E70C6FB130B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55DC2D09-66AA-DC7C-1D03-9E70C6FB130B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55DC2D09-66AA-DC7C-1D03-9E70C6FB130B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55DC2D09-66AA-DC7C-1D03-9E70C6FB130B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
