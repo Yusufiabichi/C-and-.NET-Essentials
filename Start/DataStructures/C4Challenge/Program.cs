@@ -48,6 +48,7 @@ namespace Challenge
 
 
             int max = 0;
+            int least= lengths[0];
 
             for (int i = 0; i < lengths.Count; i++)
             {
@@ -56,8 +57,13 @@ namespace Challenge
                 {
                     max = a;
                 }
+                if(a < least)
+                {
+                    least = a;
+                }
             }
             Console.WriteLine($"The max is: {max}");
+            Console.WriteLine($"The least is: {least}");
 
 
             //if a> b, store a discard b
