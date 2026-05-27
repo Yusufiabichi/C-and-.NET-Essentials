@@ -16,65 +16,64 @@ namespace Challenge
             // Split the string on space character boundary
             string[] wordArray = TheString.Split(' ');
 
-
             // TODO: Count the total number of words
-            Console.WriteLine($"Word COunt: {wordArray.Length}");
-
+            Console.WriteLine($"Word Count: {wordArray.Length}");
 
             // TODO: Find the longest word in the list
             List<int> lengths = new List<int>();
             foreach (string wrd in wordArray)
             {
                 int chrLength = wrd.Length;
+                //Console.WriteLine(wrd);
                 lengths.Add(chrLength);
+                PrintWords(wrd, chrLength);
             }
-            Console.WriteLine(string.Join(", ", lengths));
-
+            //Console.WriteLine(string.Join(", ", lengths));
 
             var order = lengths.OrderByDescending(w => w);
             var largest = order.FirstOrDefault();
             var smallest = order.LastOrDefault();
 
-            Console.WriteLine($"The largest number is {largest}");
-            Console.WriteLine($"The smallest number is {smallest}");
+            //Console.WriteLine($"The largest number is {largest}");
+            //Console.WriteLine($"The smallest number is {smallest}");
 
             //lengths.Sort();
             //Console.WriteLine($"Sorted lengths: {string.Join(", ", lengths)}");
             //Console.WriteLine(lengths.Last());
 
-            //int max = lengths.Max();
-            //int maxIndex = lengths.ToList().IndexOf(max);
-            //Console.WriteLine($"The longest word is: {wordArray[maxIndex]} with a length of {max}");
+            int max = lengths.Max();
+            int maxIndex = lengths.ToList().IndexOf(max);
+            Console.WriteLine($"The longest word is: {wordArray[maxIndex]} with a length of {max}");
 
 
-            int max = 0;
+            int maxNum = 0;
             int least= lengths[0];
 
             for (int i = 0; i < lengths.Count; i++)
             {
                 int a = lengths[i];
-                if(a > max)
+                if(a > maxNum)
                 {
-                    max = a;
+                    maxNum = a;
                 }
                 if(a < least)
                 {
                     least = a;
                 }
             }
-            Console.WriteLine($"The max is: {max}");
-            Console.WriteLine($"The least is: {least}");
-
-
-            //if a> b, store a discard b
-            //else store b discard a
-
+            //Console.WriteLine($"The max is: {maxNum}");
+            //Console.WriteLine($"The least is: {least}");
 
             // TODO: Build the word count data
 
 
             // TODO: Print out the word count data
+            //Console.WriteLine(wordArray);
 
+        }
+        static void PrintWords(string theWords, int wrdLength)
+        {
+            Console.WriteLine($"The word: '{theWords}' is {wrdLength} lengths");
         }
 
 
