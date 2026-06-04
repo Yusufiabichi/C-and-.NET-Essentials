@@ -93,6 +93,11 @@ namespace Challenge
             return s.Any(char.IsUpper) && s.Any(char.IsLower) && s.Any(char.IsDigit) && s.Any(char.IsSymbol);
         }
 
+        static string Nomarlized(string input)
+        {
+            return input.ToLower().Trim().Replace(",", "");
+        }
+
 
 
 
@@ -129,6 +134,7 @@ namespace Challenge
             //Console.WriteLine(IsLowerCase("HELLO"));
             //Console.WriteLine(IsLowerCase("hello"));
             Console.WriteLine(IsPasswordComplex("Hello0^"));
+            Console.WriteLine(Nomarlized("Hello, There GOODDAy"));
 
             // TODO: Convert the string array to a single string and call PrintStringStats
             string TheText = string.Join(" ", GettysburgAddress).ToLower();

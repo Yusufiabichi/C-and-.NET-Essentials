@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("C4Challenge")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+18f39d398b0d1f3e7c795199ee950a959e432af3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+48feee67138f13f4b324a5fe11c270c87c7577cc")]
 [assembly: System.Reflection.AssemblyProductAttribute("C4Challenge")]
 [assembly: System.Reflection.AssemblyTitleAttribute("C4Challenge")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
