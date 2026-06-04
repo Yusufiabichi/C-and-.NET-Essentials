@@ -6,6 +6,7 @@ using System.Collections.Generic;
 using System.Collections.Specialized;
 using System.Security.Cryptography.X509Certificates;
 using System.Text;
+using System.Linq;
 
 namespace Challenge
 {
@@ -43,7 +44,7 @@ namespace Challenge
 
             int max = lengths.Max();
             int maxIndex = lengths.ToList().IndexOf(max);
-            Console.WriteLine($"The longest word is: {wordArray[maxIndex]} with a length of {max}");
+            //Console.WriteLine($"The longest word is: {wordArray[maxIndex]} with a length of {max}");
 
 
             int maxNum = 0;
@@ -73,8 +74,25 @@ namespace Challenge
         }
         static void PrintWords(string theWords, int wrdLength)
         {
-            Console.WriteLine($"The word: '{theWords}' is {wrdLength} lengths");
+            //Console.WriteLine($"The word: '{theWords}' is {wrdLength} lengths");
         }
+
+        // string validation
+        static Boolean IsUpperCase(string s)
+        {
+            return s.All(char.IsUpper);
+        }
+
+        static Boolean IsLowerCase(string s)
+        {
+            return s.All(char.IsLower);
+        }
+
+        static Boolean IsPasswordComplex(string s)
+        {
+            return s.Any(char.IsUpper) && s.Any(char.IsLower) && s.Any(char.IsDigit) && s.Any(char.IsSymbol);
+        }
+
 
 
 
@@ -102,6 +120,15 @@ namespace Challenge
             //{
             //    Console.WriteLine(word);
             //}
+
+
+            //String Validation
+
+            //Console.WriteLine(IsUpperCase("hello"));
+            //Console.WriteLine(IsUpperCase("HELLO"));
+            //Console.WriteLine(IsLowerCase("HELLO"));
+            //Console.WriteLine(IsLowerCase("hello"));
+            Console.WriteLine(IsPasswordComplex("Hello0^"));
 
             // TODO: Convert the string array to a single string and call PrintStringStats
             string TheText = string.Join(" ", GettysburgAddress).ToLower();
