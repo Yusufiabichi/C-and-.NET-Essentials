@@ -98,6 +98,21 @@ namespace Challenge
             return input.ToLower().Trim().Replace(",", "");
         }
 
+        static void ParseContents(string s)
+        {
+            Console.WriteLine("Option A");
+            foreach(char c in s)
+            {
+                Console.WriteLine(c);
+            }
+            Console.WriteLine("Option B");
+            for( int i=0; i< s.Length; i++)
+            {
+                char c = s[i];
+                Console.WriteLine(c);
+            }
+        }
+
 
 
 
@@ -135,6 +150,7 @@ namespace Challenge
             //Console.WriteLine(IsLowerCase("hello"));
             Console.WriteLine(IsPasswordComplex("Hello0^"));
             Console.WriteLine(Nomarlized("Hello, There GOODDAy"));
+            ParseContents("Hello World");
 
             // TODO: Convert the string array to a single string and call PrintStringStats
             string TheText = string.Join(" ", GettysburgAddress).ToLower();
