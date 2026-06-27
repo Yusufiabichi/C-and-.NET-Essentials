@@ -113,6 +113,33 @@ namespace Challenge
             }
         }
 
+        // Algorithm driven strings in C#
+        static String Reverse(String input)
+        {
+            if (string.IsNullOrEmpty(input))
+            {
+                return input;
+            }
+            StringBuilder reversed = new StringBuilder(input.Length);
+
+            for (int i = input.Length - 1; i >= 0; i--)
+            {
+                reversed.Append(input[i]);
+            }
+            return reversed.ToString();
+
+        }
+
+        static String Reverse2(String input)
+        {
+            if (string.IsNullOrEmpty(input)){
+                return input;
+            }
+            char[] arr = input.ToCharArray();
+            Array.Reverse(arr);
+            return new String(arr);
+        }
+
 
 
 
@@ -151,6 +178,14 @@ namespace Challenge
             Console.WriteLine(IsPasswordComplex("Hello0^"));
             Console.WriteLine(Nomarlized("Hello, There GOODDAy"));
             ParseContents("Hello World");
+
+            // Algorithm driven strings in C#
+            Console.WriteLine(Reverse2("Hello world"));
+            Console.WriteLine(Reverse2("Here we come"));
+            Console.WriteLine(Reverse2(""));
+            Console.WriteLine(Reverse2("I'm not OK"));
+            Console.WriteLine(Reverse2(""));
+            Console.WriteLine(Reverse2(null));
 
             // TODO: Convert the string array to a single string and call PrintStringStats
             string TheText = string.Join(" ", GettysburgAddress).ToLower();
