@@ -149,6 +149,19 @@ namespace Challenge
             return reversedSentence;
         }
 
+        // Linear Search
+        static Boolean LinearSearch(int[] input, int n)
+        {
+            foreach(int current in input)
+            {
+                if(n == current)
+                {
+                    return true;
+                }
+            }
+            return false;
+        }
+
 
 
         static void Main(string[] args)
@@ -183,19 +196,29 @@ namespace Challenge
             //Console.WriteLine(IsUpperCase("HELLO"));
             //Console.WriteLine(IsLowerCase("HELLO"));
             //Console.WriteLine(IsLowerCase("hello"));
-            Console.WriteLine(IsPasswordComplex("Hello0^"));
-            Console.WriteLine(Nomarlized("Hello, There GOODDAy"));
-            ParseContents("Hello World");
+            //Console.WriteLine(IsPasswordComplex("Hello0^"));
+            //Console.WriteLine(Nomarlized("Hello, There GOODDAy"));
+            //ParseContents("Hello World");
 
             // Algorithm driven strings in C#
-            Console.WriteLine(Reverse2("Hello world"));
-            Console.WriteLine(Reverse2("Here we come"));
-            Console.WriteLine(Reverse2(""));
-            Console.WriteLine(Reverse2("I'm not OK"));
-            Console.WriteLine(Reverse2(""));
-            Console.WriteLine(Reverse2(null));
-            string sentence = "Hello world here I come";
-            Console.WriteLine(ReverseEachWord(sentence));
+            //Console.WriteLine(Reverse2("Hello world"));
+            //Console.WriteLine(Reverse2("Here we come"));
+            //Console.WriteLine(Reverse2(""));
+            //Console.WriteLine(Reverse2("I'm not OK"));
+            //Console.WriteLine(Reverse2(""));
+            //Console.WriteLine(Reverse2(null));
+            //string sentence = "Hello world here I come";
+            //Console.WriteLine(ReverseEachWord(sentence));
+
+            // Linear Search
+            int[] arr = { 1, 2, 3, 4, 5, 6 };
+            //Console.WriteLine(LinearSearch(arr, 4));
+            //Console.WriteLine(LinearSearch(arr, 8));
+
+            int item = Array.Find(arr, element => element == 3);
+            Console.WriteLine(item);
+            int[] items = Array.FindAll(arr, element => element >= 5);
+            Array.ForEach(items, Console.WriteLine); 
 
 
             // TODO: Convert the string array to a single string and call PrintStringStats
