@@ -140,6 +140,14 @@ namespace Challenge
             return new String(arr);
         }
 
+        // Reversed words
+        public static string ReverseEachWord(string sentence)
+        {
+            string[] words = sentence.Split(' ');
+            string[] reverseWords = words.Select(Reverse).ToArray();
+            string reversedSentence = string.Join(" ", reverseWords);
+            return reversedSentence;
+        }
 
 
 
@@ -186,6 +194,9 @@ namespace Challenge
             Console.WriteLine(Reverse2("I'm not OK"));
             Console.WriteLine(Reverse2(""));
             Console.WriteLine(Reverse2(null));
+            string sentence = "Hello world here I come";
+            Console.WriteLine(ReverseEachWord(sentence));
+
 
             // TODO: Convert the string array to a single string and call PrintStringStats
             string TheText = string.Join(" ", GettysburgAddress).ToLower();
