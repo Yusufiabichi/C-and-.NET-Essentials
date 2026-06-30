@@ -127,7 +127,6 @@ namespace Challenge
                 reversed.Append(input[i]);
             }
             return reversed.ToString();
-
         }
 
         static String Reverse2(String input)
@@ -162,6 +161,28 @@ namespace Challenge
             return false;
         }
 
+        // Binary Search
+        static Boolean BinarySearch(int[] inputArray, int item)
+        {
+            int min = 0;
+            int max = inputArray.Length - 1;
+            
+            while(min <= max)
+            {
+                int mid = (min = max + min) / 2;
+                if(item == inputArray[mid])
+                {
+                    return true;
+                } else if(item < inputArray[mid])
+                {
+                    max = mid - 1;
+                } else
+                {
+                    max = mid + 1;
+                }
+            }
+            return true;
+        }
 
 
         static void Main(string[] args)
@@ -215,16 +236,23 @@ namespace Challenge
             //Console.WriteLine(LinearSearch(arr, 4));
             //Console.WriteLine(LinearSearch(arr, 8));
 
+            // Built in function for Linear search
             int item = Array.Find(arr, element => element == 3);
-            Console.WriteLine(item);
+            //Console.WriteLine(item);
             int[] items = Array.FindAll(arr, element => element >= 5);
-            Array.ForEach(items, Console.WriteLine); 
+            //Array.ForEach(items, Console.WriteLine);
+
+            // Binary Search
+            //Console.WriteLine(BinarySearch(arr, 2));
+            //Console.WriteLine(BinarySearch(arr, 0));
+            int searched = Array.BinarySearch(arr, 1);
+            Console.WriteLine(searched);
 
 
             // TODO: Convert the string array to a single string and call PrintStringStats
             string TheText = string.Join(" ", GettysburgAddress).ToLower();
             //Console.WriteLine(TheText);
-            PrintStringStats(TheText);
+            //PrintStringStats(TheText);
         }
     }
 }
