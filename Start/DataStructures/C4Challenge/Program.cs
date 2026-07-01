@@ -7,6 +7,7 @@ using System.Collections.Specialized;
 using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Linq;
+using System.Collections;
 
 namespace Challenge
 {
@@ -184,6 +185,53 @@ namespace Challenge
             return true;
         }
 
+        // Aggregate and Filters
+        static int[] FindEvenNums(int[] arr1, int[] arr2)
+        {
+            ArrayList result = new ArrayList();
+
+            foreach( int num in arr1)
+            {
+                if(num % 2 == 0)
+                {
+                    result.Add(num);
+                }
+            }
+
+            foreach(int num in arr2)
+            {
+                if(num % 2 == 0)
+                {
+                    result.Add(num);
+                }
+            }
+
+            return (int[])result.ToArray(typeof(int));
+        }
+
+        static int[] FindOddNums(int[] arr1, int[] arr2)
+        {
+            ArrayList result2 = new ArrayList();
+
+            foreach(int num in arr1)
+            {
+                if (num % 2 != 0)
+                {
+                    result2.Add(num);
+                }
+            }
+
+            foreach(int num in arr2)
+            {
+                if(num % 2 != 0)
+                {
+                    result2.Add(num);
+                }
+            }
+
+            return (int[])result2.ToArray(typeof(int));
+        }
+
 
         static void Main(string[] args)
         {
@@ -247,6 +295,15 @@ namespace Challenge
             //Console.WriteLine(BinarySearch(arr, 0));
             int searched = Array.BinarySearch(arr, 1);
             Console.WriteLine(searched);
+
+            // Aggregate and Filter
+            int[] arr1 = { -8, 2, 3, -9, 11, 20 };
+            int[] arr2 = { 0, -2, -5, -39, 10, 7 };
+
+            int[] evenArr = FindEvenNums(arr1,  arr2);
+            Array.ForEach(evenArr, Console.WriteLine);
+            int[] oddArr = FindOddNums(arr1, arr2);
+            Array.ForEach(oddArr, Console.WriteLine);
 
 
             // TODO: Convert the string array to a single string and call PrintStringStats
