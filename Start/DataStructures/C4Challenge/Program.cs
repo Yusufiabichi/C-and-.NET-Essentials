@@ -232,6 +232,30 @@ namespace Challenge
             return (int[])result2.ToArray(typeof(int));
         }
 
+        // Reverse an Array
+        static int[] Reverse(int[] input)
+        {
+            int[] reversed = new int[input.Length];
+
+            for (int i = 0; i < reversed.Length; i++)
+            {
+                reversed[i] = input[input.Length - i - 1];
+            }
+
+            return reversed;
+        }
+
+        static void ReverseInPlace(int[] input)
+        {
+            for(int i = 0; i < input.Length / 2; i++)
+            {
+                // Swap index(i) with index(input.Length - i -1)
+                int temp = input[i];
+                input[i] = input[input.Length - i - 1];
+                input[input.Length - i - 1] = temp;
+            }
+        }
+
 
         static void Main(string[] args)
         {
@@ -304,6 +328,32 @@ namespace Challenge
             Array.ForEach(evenArr, Console.WriteLine);
             int[] oddArr = FindOddNums(arr1, arr2);
             Array.ForEach(oddArr, Console.WriteLine);
+
+            // Reverse Array
+            int[] input = { 1, 2, 3, 4, 5, 6 };
+            //Array.ForEach(Reverse(input), Console.WriteLine);
+            ReverseInPlace(input);
+            ReverseInPlace(input);
+            Array.ForEach(input, Console.WriteLine);
+
+            // LinkedList
+            LinkedList<string> listy = new LinkedList<string>();
+            //AddLast
+            //AddFirst
+            listy.AddLast("Yusufia");
+            listy.AddLast("Isah");
+            listy.AddLast("Haydar");
+            listy.AddLast("Yasir");
+            listy.AddLast("Musbahu");
+
+            Console.WriteLine(listy.Contains("Yusufia"));
+            Console.WriteLine(listy.Count);
+
+            listy.RemoveFirst();
+            foreach(string name in listy)
+            {
+                Console.Write(name + "->");
+            }
 
 
             // TODO: Convert the string array to a single string and call PrintStringStats
