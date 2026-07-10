@@ -256,6 +256,28 @@ namespace Challenge
             }
         }
 
+        // Queue algorithms
+        static void PrintBinary(int n)
+        {
+            if(n <= 0)
+            {
+                return;
+            }
+
+            Queue<int> queue = new Queue<int>();
+            queue.Enqueue(1);
+            for (int i = 0; i < n; i++)
+            {
+                int current = queue.Dequeue();
+                Console.WriteLine(current);
+                queue.Enqueue(current * 10);
+                queue.Enqueue(current * 10 + 1);
+            }
+
+            Console.WriteLine();
+
+        }
+
 
         static void Main(string[] args)
         {
@@ -318,23 +340,23 @@ namespace Challenge
             //Console.WriteLine(BinarySearch(arr, 2));
             //Console.WriteLine(BinarySearch(arr, 0));
             int searched = Array.BinarySearch(arr, 1);
-            Console.WriteLine(searched);
+            //Console.WriteLine(searched);
 
             // Aggregate and Filter
             int[] arr1 = { -8, 2, 3, -9, 11, 20 };
             int[] arr2 = { 0, -2, -5, -39, 10, 7 };
 
             int[] evenArr = FindEvenNums(arr1,  arr2);
-            Array.ForEach(evenArr, Console.WriteLine);
+            //Array.ForEach(evenArr, Console.WriteLine);
             int[] oddArr = FindOddNums(arr1, arr2);
-            Array.ForEach(oddArr, Console.WriteLine);
+            //Array.ForEach(oddArr, Console.WriteLine);
 
             // Reverse Array
             int[] input = { 1, 2, 3, 4, 5, 6 };
             //Array.ForEach(Reverse(input), Console.WriteLine);
             ReverseInPlace(input);
             ReverseInPlace(input);
-            Array.ForEach(input, Console.WriteLine);
+            //Array.ForEach(input, Console.WriteLine);
 
             // LinkedList
             LinkedList<string> listy = new LinkedList<string>();
@@ -346,14 +368,41 @@ namespace Challenge
             listy.AddLast("Yasir");
             listy.AddLast("Musbahu");
 
-            Console.WriteLine(listy.Contains("Yusufia"));
-            Console.WriteLine(listy.Count);
+            //Console.WriteLine(listy.Contains("Yusufia"));
+            //Console.WriteLine(listy.Count);
 
             listy.RemoveFirst();
             foreach(string name in listy)
             {
-                Console.Write(name + "->");
+                //Console.Write(name + "->");
             }
+
+            // Queue operations 
+            Queue<int> queue = new Queue<int>();
+
+            queue.Enqueue(1);
+            queue.Enqueue(3);
+            queue.Enqueue(6);
+            queue.Enqueue(9);
+
+            int removedItem = queue.Dequeue();
+            Console.WriteLine(removedItem);
+            Console.WriteLine(queue.Dequeue());
+            Console.WriteLine(queue.Peek());
+
+            int current;
+            while(queue.TryDequeue(out current))
+            {
+                Console.WriteLine(current);
+            }
+
+            // Print Binary
+            PrintBinary(5);
+            PrintBinary(-2);
+            PrintBinary(0);
+            PrintBinary(2);
+            PrintBinary(8);
+            PrintBinary(9);
 
 
             // TODO: Convert the string array to a single string and call PrintStringStats
