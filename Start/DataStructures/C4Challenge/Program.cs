@@ -404,6 +404,25 @@ namespace Challenge
             PrintBinary(8);
             PrintBinary(9);
 
+            // Stack Operations
+            Stack<string> stack = new Stack<string>();
+
+            Console.WriteLine("Start Main");
+            stack.Push("Main");
+            Console.WriteLine("Start ResponseBuilder");
+            stack.Push("ResponseBuilder");
+            Console.WriteLine("Start CallExternalService");
+            stack.Push("CallExternalService");
+            Console.WriteLine("END " + stack.Pop());
+            Console.WriteLine("Start ParseExtensionData");
+            stack.Push("ParseExternalData");
+            Console.WriteLine("END " + stack.Pop());
+            Console.WriteLine("END " + stack.Pop());
+            Console.WriteLine("END " + stack.Pop());
+
+            // Stack.Peek()
+            // Stack.TryPeek()
+
 
             // TODO: Convert the string array to a single string and call PrintStringStats
             string TheText = string.Join(" ", GettysburgAddress).ToLower();
